@@ -1,0 +1,103 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.header {
+  background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQdgjn5dlZm_VVlWNLEW7UbnIl76axxwexctWlI0tznJxBRqDay) no-repeat center center; 
+  background-size: cover;
+  height: 600px;
+  text-align: center; 
+}
+.header .container {
+  position: relative;
+  }
+
+.nav {
+    font-color:black;
+    height: 80px; 
+  width: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav ul {
+  height: 100px;
+  list-style: none;
+  margin-top: auto; 
+  padding: 0;
+  text-align: center; 
+  width: 720px;
+}
+
+.nav ul li {
+  color:#FFFFFF ;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  width: 100px;  
+  transition: background .5s; 
+}
+.btn:hover,.nav ul li:hover  {
+  background: #ECD9D9;
+  cursor: pointer; 
+  transition: background .10s;  
+}
+
+.main .container {
+	text-decoration: bold;
+  font-size: 30px;
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+p{
+ font-size: 30px;
+ }
+
+.footer { 
+  background:#FFFFFF ;
+  height: 50px; 
+  margin-bottom:5px;
+  clear: both;
+	position: relative;
+	bottom: -220px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	}
+
+.footer p { 
+  color: blue;
+  font-size: 14px;  
+    line-height: 20px;
+    
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
